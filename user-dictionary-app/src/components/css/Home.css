@@ -1,0 +1,56 @@
+.book {
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 3px 3px 8px #bbbbbb;
+  top: 0px;
+  transition: top 0.2s ease;
+}
+
+.book:hover {
+  position: relative;
+  top: -3px;
+}
+
+.book .bookImg img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.home {
+  margin-bottom: 30px;
+}
+
+.book .bookBtn {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  height: 45px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Navbar */
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .addUserBtn {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  min-width: 150px;
+  width: 200px;
+}
+
+.navbar .addUserBtn a {
+  color: rgb(48, 47, 47);
+  font-weight: 700;
+}
